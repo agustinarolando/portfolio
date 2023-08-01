@@ -1,0 +1,64 @@
+/* selector de clase */
+.home {
+    background-color: rgba(255, 228, 187, 0.89);
+    font-family: 'Bodoni Moda', serif;
+}
+
+/* selector de clase */
+.quote {
+    margin: 1.5vw 6vw 1.5vw 6vw;
+    padding: 50px 0px 50px 0px;
+    align-self: center;
+}
+
+/* selector de clase */
+.button {
+    border-width: 1px 1px 1px 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20pt;
+    width: fit-content;
+    display: inline;
+}
+
+/* selector de id */
+#navbar {
+    border-color: black;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-radius: 15px;
+    width: 350px;
+}
+
+/* selector de id */
+#bar {
+    background-color: black;
+    height: 0.5vh;
+    margin: 0vw 2vw 0vw 2vw;
+    position: relative;
+}
+
+.navbar a {
+    color: #ffe4bb;
+    background-color: black;
+}
+ 
+.quote p {
+    font-size: 100px;
+    font-weight: lighter;
+    line-height: 10px;
+}
+
+p>em {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#images {
+    display: flex;
+}
+
+img {
+    height: 5vh;
+    margin: 0px 15px 0px 15px;
+}
